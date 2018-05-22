@@ -21,7 +21,7 @@ var gem1 = Math.floor(Math.random() * 12 + 1);
     console.log(" gem1 " + gem1);
 yellowGem = $("<img>");
 yellowGem.addClass("gems");
-yellowGem.attr("src", "file:///Users/nataliecolwell/Desktop/repositories/HW_4jQuery/Unit-4-game/ASSETS/Images/YellowSquareGems.png");
+yellowGem.attr("src", "ASSETS/Images/YellowSquareGems.png");
 yellowGem.attr("data-gemvalue", gem1);
 $("#yellowGem").append(yellowGem);
 
@@ -29,7 +29,7 @@ var gem2 = Math.floor(Math.random() * 12 + 1);
     console.log(" gem2 " + gem2);
 pinkGem = $("<img>");
 pinkGem.addClass("gems");
-pinkGem.attr("src", "file:///Users/nataliecolwell/Desktop/repositories/HW_4jQuery/Unit-4-game/ASSETS/Images/PinkHeartGem.png");
+pinkGem.attr("src", "ASSETS/Images/PinkHeartGem.png");
 pinkGem.attr("data-gemvalue", gem2);
 $("#pinkGem").append(pinkGem);
 
@@ -37,7 +37,7 @@ var gem3 = Math.floor(Math.random() * 12 + 1);
     console.log(" gem3 " + gem3);
 blueGem = $("<img>");
 blueGem.addClass("gems");
-blueGem.attr("src", "file:///Users/nataliecolwell/Desktop/repositories/HW_4jQuery/Unit-4-game/ASSETS/Images/BlueOvalGems.png");
+blueGem.attr("src", "ASSETS/Images/BlueOvalGems.png");
 blueGem.attr("data-gemvalue", gem3);
 $("#blueGem").append(blueGem);
 
@@ -45,7 +45,7 @@ var gem4 = Math.floor(Math.random() * 12 + 1);
     console.log(" gem4 " + gem4);
 redGem = $("<img>");
 redGem.addClass("gems")
-redGem.attr("src","file:///Users/nataliecolwell/Desktop/repositories/HW_4jQuery/Unit-4-game/ASSETS/Images/RedTriGems.png");
+redGem.attr("src","ASSETS/Images/RedTriGems.png");
 redGem.attr("data-gemvalue", gem4);
 $("#redGem").append(redGem);
 
